@@ -9,8 +9,8 @@ PORT = 5000
 conn = psycopg2.connect(
     host="localhost",
     database="vtfzmzvq_project2_db",
-    user="vtfzmzvq_project2_user",
-    password=".Dung@))$"
+    user="vtfzmzvq_dungne2004",
+    password=".Dung2004"
 )
 cur = conn.cursor()
 
