@@ -1,4 +1,4 @@
-fetch('http://localhost:5000/api/hello')
+fetch('http://shindie.id.vn/backend/server.py/api/hello')
     .then(res => res.json())
     .then(data => {
         document.getElementById('message').innerText = data.message;
